@@ -17,7 +17,7 @@ public class BurgersRepository {
     private EntityManager entityManager;
 
     public List<BurgerModel> findBurgers(){
-        String sql = " select * from postgres.public.recipes r  ";
+        String sql = "select * from postgres.public.recipes b";
 
         Query query = entityManager.createNativeQuery(sql, BurgerEntity.class);
 
