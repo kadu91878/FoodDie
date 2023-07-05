@@ -1,11 +1,11 @@
-package com.example.fooddies.Repository;
+package com.example.fooddies.Aplication.Repository;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.example.fooddies.Entity.BurgerEntity;
-import com.example.fooddies.Model.BurgerModel;
+import com.example.fooddies.Aplication.Entity.BurgerEntity;
+import com.example.fooddies.Domain.Model.BurgerModel;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;

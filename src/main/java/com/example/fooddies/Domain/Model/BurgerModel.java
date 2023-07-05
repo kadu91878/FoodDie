@@ -1,15 +1,10 @@
-package com.example.fooddies.Entity;
+package com.example.fooddies.Domain.Model;
 
-
-
-import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-
-@Entity
 @Data
-public class BurgerEntity {
+public class BurgerModel {
     @Id
     private Integer id;
     private String name;
@@ -17,5 +12,4 @@ public class BurgerEntity {
     private String instructions;
     private String ingredients;
     private String description;
-
 }
