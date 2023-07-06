@@ -20,7 +20,7 @@ public class BurgersController {
   final private BuscarBurgersUC buscarBurgersUC;
 
   @GetMapping("/getBurgers")
-  public ResponseEntity<List<BurgerModel>> getBurgers(){
+  public ResponseEntity<List<BurgerModel>> getBurgers() {
     return new ResponseEntity<>(buscarBurgersUC.execute(), HttpStatus.OK);
   }
 }

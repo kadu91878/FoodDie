@@ -16,12 +16,12 @@ public class BurgersRepository {
     @PersistenceContext
     private EntityManager entityManager;
 
-    public List<BurgerModel> findBurgers(){
+    public List<BurgerModel> findBurgers() {
         String sql = "select * from postgres.public.recipes b";
 
         Query query = entityManager.createNativeQuery(sql, BurgerEntity.class);
 
-         @SuppressWarnings("unchecked")
+        @SuppressWarnings("unchecked")
         List<BurgerModel> resultList = query.getResultList();
 
         return resultList;

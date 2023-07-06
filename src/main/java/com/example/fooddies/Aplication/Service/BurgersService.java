@@ -12,10 +12,10 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor
 public class BurgersService {
-    
+
     final private BurgersRepository repository;
 
-    public List<BurgerModel> findBurgers(){
+    public List<BurgerModel> findBurgers() {
         return repository.findBurgers();
     }
 }
