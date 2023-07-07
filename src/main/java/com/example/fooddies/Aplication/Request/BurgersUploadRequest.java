@@ -1,13 +1,17 @@
 package com.example.fooddies.Aplication.Request;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
 public class BurgersUploadRequest {
 
-    private final String name;
-    private final String picture;
-    private final String instructions;
-    private final String ingredients;
-    private final String description;
+    private  String name;
+    private  String picture;
+    private  String instructions;
+    private  String ingredients;
+    private  String description;
 }
