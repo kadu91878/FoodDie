@@ -9,11 +9,11 @@
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.tc.tcema</groupId>
-	<artifactId>nie-api</artifactId>
+	<groupId>com.burgers</groupId>
+	<artifactId>FoodDies</artifactId>
 	<version>1.0.1</version>
-	<name>nie-api</name>
-	<description>API rest para sistema NIE</description>
+	<name>FoodDies</name>
+	<description>API rest para sistema Burgers</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.1</spring-cloud.version>
